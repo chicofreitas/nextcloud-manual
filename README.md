@@ -32,5 +32,12 @@ Após a instalação da versão, editar o arquivo config/config.php para habilit
 
 ## Configurando o Banco de Dados
 
+Esta parta fica a critério do seu SGBD de preferência
 
-## 
+## Instalando a Mail App recomendada da NextCloud
+
+Clonando a versão Stable2.2 da Mail App no diretório *apps/*
+
+        git clone --branch stable2.2 https://github.com/nextcloud/mail.git
+
+## Próximo tópico 
