@@ -40,4 +40,8 @@ Clonando a versão Stable2.2 da Mail App no diretório *apps/*
 
         git clone --branch stable2.2 https://github.com/nextcloud/mail.git
 
-## Próximo tópico 
+## Gerando a Estrutura do Plugin
+
+        https://apps.nextcloud.com/developer/apps/generate
+
+## Configuração Inicial do Plugin
