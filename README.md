@@ -40,6 +40,21 @@ Clonando a versão Stable2.2 da Mail App no diretório *apps/*
 
         git clone --branch stable2.2 https://github.com/nextcloud/mail.git
 
+Após a colonagem do branch 2.2 instale as dependências do node_modules
+        npm install
+
+e em seguida, as do composer
+
+        composer update
+        
+        composer dump-autoload
+
+Crie o diretório */mail/js/* e execute o seguinte comando
+
+        npm run watch
+        
+para gerar o arquivo mail.js, responsável pela apresentação do frontend.
+
 ## Gerando a Estrutura do Plugin
 
         https://apps.nextcloud.com/developer/apps/generate
