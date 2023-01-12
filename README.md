@@ -22,4 +22,15 @@ e em seguida
 
         git submodule update --init
 
+Após a instalação da versão, editar o arquivo config/config.php para habilitar o modo de depuração de erros
+
+       <?php
+       $CONFIG = array (
+           'debug' => true,
+           ... configuration goes here ...
+       );
+
 ## Configurando o Banco de Dados
+
+
+## 
